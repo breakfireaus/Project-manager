@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A Project management tool to assist with client projects",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "test"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/breakfireaus/Project-manager/issues"
   },
-  "homepage": "https://github.com/breakfireaus/Project-manager#readme"
+  "homepage": "https://github.com/breakfireaus/Project-manager#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21"
+  }
 }
