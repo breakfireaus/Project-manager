@@ -1,0 +1,19 @@
+{
+  "name": "project-manager",
+  "version": "1.0.0",
+  "description": "A Project management tool to assist with client projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breakfireaus/Project-manager.git"
+  },
+  "author": "Matthew Younger-Chudnovsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/breakfireaus/Project-manager/issues"
+  },
+  "homepage": "https://github.com/breakfireaus/Project-manager#readme"
+}
